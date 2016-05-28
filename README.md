@@ -25,7 +25,10 @@ Prepare files to load CNN
 * deploy.prototxt - define the network structure. Set input layer dim = 1x3x227x227, and set the top layer name as "prob".
 * labels.txt - simple text file to list the classes to be classified.
 * Create a folder with network name and put these 3 files into that folder.
+<<<<<<< HEAD
 * Edit `classifier_simpleGUI.py` line 152. Set the argument of `UI()` to the created folder name.
+=======
+>>>>>>> c930d11768d38137f6246d8786724f68933d2cff
 
 Folder `alexnet` is an example.
 
